@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Ensure items stretch to full width */
+  min-height: 100vh;
+}
